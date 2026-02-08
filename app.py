@@ -184,6 +184,7 @@ def main():
     st.set_page_config(layout="wide", page_title="Universal CFG")
     st.title("🔀 Universal CFG Generator")
     st.markdown("Supports **Python (elif)** and **C/Java (else if)** correctly.")
+    st.markdown("generate CFG for languages like python , C, java.")
 
     col1, col2 = st.columns([1, 1])
 
@@ -230,4 +231,5 @@ print("Done")"""
                 st.error(f"Error: {e}")
 
 if __name__ == "__main__":
+
     main()
